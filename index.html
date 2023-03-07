@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+/*https://getbootstrap.com/*/
 <html>
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,46 +20,53 @@
         </header>
         <main class="main">
             <h1>Bem vindo ao Blog do fulano</h1>
-            <div>
-                <section class="content">
-                    <h2 class="post-theme">Automacao de testes</h2> asdfasdf
+            <section class="wrappermain">
+                <div class="maincontent">Conteúdo Principal
+                    <article>
+                        <h3 class="post-title">Santender o melhor banco</h3>
+                        <p class="post-description">Sempre com você</p>
+                    </article>
+                </div>
+                <div class="ads">Propaganda
+                    <article>
+                        <h3 class="post-title">Vem Pra caixa você também</h3>
+                        <p class="post-description"> Caixa o banco dos brasileiros</p>
+                    </article>
+             </div>
+            </section>
+
+            <section class="wrapper">
+                <div class="subcontent">One
                     <article>
                         <h3 class="post-title">Selenium</h3>
                         <p class="post-description">O Selenium é um framework muito legal</p>
                     </article>
+                </div>
+                <div class="subcontent">Two
                     <article>
                         <h3 class="post-title">React</h3>
                         <p class="post-description"> O React é um framework muito legal</p>
                     </article>
-                </section>
-            </div>
-            <aside class="posts">
-                <section>
-                    <h2 class="post-theme">Posts sobre frontend</h3>
+             </div>
+                <div class="subcontent">Three
                     <article>
                         <h3 class="post-title">Vuejs</h3>
                         <p class="post-description">O Vuejs é um framework muito legal</p>
-                    </article>
-                    <article>
-                        <h3 class="post-title">React</h3>
-                        <p class="post-description"> O React é um framework muito legal</p>
-                    </article>
-                </section>
-                <section>
-                    <h2 class="post-theme">Posts sobre backend</h3>
+                    </article>   
+                </div>
+                <div class="subcontent"Four>
                     <article>
                         <h3 class="post-title">Springboot</h3>
                         <p class="post-description">O Springboot é um framework backend muito legal e bla bla bla bla</p>
-                    </article>
-                    <article>
-                        <h3 class="post-title">Express</h3>
-                        <p class="post-description"> O Express é um framework backend muito legal e bla bla bla bla bla</p>
-                    </article>
-                </section>
-            </aside>
+                    </article>  
+                </div>
+
+              
+            </section>
         </main>
         <footer class="footer center">
             AQUI TEM O CONTEUDO DO FOOTER
         </footer>
+        
     </body>
 </html>
